@@ -1740,13 +1740,13 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     debug: "env",
     cdn: {"js":{"app":"/js/app.js","parallax":"/js/plugins/parallax.js","rightMenu":"/js/plugins/rightMenu.js","rightMenus":"/js/plugins/rightMenus.js","sites":"/js/plugins/tags/sites.js","friends":"/js/plugins/tags/friends.js","contributors":"/js/plugins/tags/contributors.js","search":"/js/search/hexo.js"},"css":{"style":"/css/style.css"}},
     default: {"avatar":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/avatar/round/3442075.svg","link":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/link/8f277b4ee0ecd.svg","cover":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/cover/76b86c0226ffd.svg","image":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/image/2659360.svg"},
-    lastupdate: new Date(1670236024133),
+    lastupdate: new Date(1670515297814),
     sidebar: {
       for_page: ["blogger","category","tagcloud","donate"],
       for_post: ["toc"],
       webinfo: {
         lastupd: {
-          enable: true,
+          enable: false,
           friendlyShow: true
         },
         runtime: {
@@ -2181,9 +2181,9 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
         
         <a class="title flat-box" target="_self" href='/'>
           
-            <img no-lazy class='logo' src='https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/Logo-NavBar@3x.png'/>
           
           
+            Ikeguchi Seminar
           
         </a>
       
@@ -2197,13 +2197,13 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
             
               <li>
                 <a class="menuitem flat-box faa-parent animated-hover"
-                href="/categories/" title="研究テーマ"
+                href="/" title="ホーム"
                   
                   
                   
-                    active-action="action-categories"
+                    active-action="action-home"
                   >
-                  <i class='fa-solid fa-folder-open fa-fw'></i>研究テーマ
+                  <i class='fa-solid fa-house fa-fw'></i>ホーム
                 </a>
                 
               </li>
@@ -2214,13 +2214,13 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
             
               <li>
                 <a class="menuitem flat-box faa-parent animated-hover"
-                href="/tags/" title="写真"
+                href="/themes/" title="研究テーマ"
                   
                   
                   
-                    active-action="action-tags"
+                    active-action="action-themes"
                   >
-                  <i class='fa-solid fa-tags fa-fw'></i>写真
+                  <i class='fa-solid fa-folder-open fa-fw'></i>研究テーマ
                 </a>
                 
               </li>
@@ -2248,11 +2248,11 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
             
               <li>
                 <a class="menuitem flat-box faa-parent animated-hover"
-                href="/friends/" title="リンク"
+                href="/link/" title="リンク"
                   
                   
                   
-                    active-action="action-friends"
+                    active-action="action-link"
                   >
                   <i class='fa-solid fa-link fa-fw'></i>リンク
                 </a>
@@ -2272,6 +2272,23 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
                     active-action="action-about"
                   >
                   <i class='fa-solid fa-info-circle fa-fw'></i>研究室概要
+                </a>
+                
+              </li>
+            
+          
+          
+            
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover"
+                href="/gallery/" title="写真"
+                  
+                  
+                  
+                    active-action="action-gallery"
+                  >
+                  <i class='fas fa-images fa-fw'></i>写真
                 </a>
                 
               </li>
@@ -2301,13 +2318,13 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
             
               <li>
                 <a class="menuitem flat-box faa-parent animated-hover"
-                href="/categories/" title="研究テーマ"
+                href="/" title="ホーム"
                   
                   
                   
-                    active-action="action-categories"
+                    active-action="action-home"
                   >
-                  <i class='fa-solid fa-folder-open fa-fw'></i>研究テーマ
+                  <i class='fa-solid fa-house fa-fw'></i>ホーム
                 </a>
                 
               </li>
@@ -2318,13 +2335,13 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
             
               <li>
                 <a class="menuitem flat-box faa-parent animated-hover"
-                href="/tags/" title="写真"
+                href="/themes/" title="研究テーマ"
                   
                   
                   
-                    active-action="action-tags"
+                    active-action="action-themes"
                   >
-                  <i class='fa-solid fa-tags fa-fw'></i>写真
+                  <i class='fa-solid fa-folder-open fa-fw'></i>研究テーマ
                 </a>
                 
               </li>
@@ -2352,11 +2369,11 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
             
               <li>
                 <a class="menuitem flat-box faa-parent animated-hover"
-                href="/friends/" title="リンク"
+                href="/link/" title="リンク"
                   
                   
                   
-                    active-action="action-friends"
+                    active-action="action-link"
                   >
                   <i class='fa-solid fa-link fa-fw'></i>リンク
                 </a>
@@ -2382,6 +2399,23 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
             
           
             
+              
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover"
+                href="/gallery/" title="写真"
+                  
+                  
+                  
+                    active-action="action-gallery"
+                  >
+                  <i class='fas fa-images fa-fw'></i>写真
+                </a>
+                
+              </li>
+            
+          
+            
           </ul>
         </li>
 			</ul>
@@ -2401,14 +2435,16 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       <!-- see: /layout/_partial/scripts/_ctrl/coverCtrl.ejs -->
       <div id="half" class='cover-wrapper  dock' style="display: ;">
         
-  <div class='cover-bg lazyload placeholder' data-bg="https://gcore.jsdelivr.net/gh/MHG-LAB/cron@gh-pages/bing/bing.jpg"></div>
+  <div class='cover-bg lazyload placeholder' data-bg="https://images.unsplash.com/photo-1584267999791-0970eb9426e5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80.jpg"></div>
 
 <div class='cover-body'>
   <div class='top'>
     
     
-      <p class="title">Volantis</p>
+      <p class="title">池口研究室</p>
     
+    
+      <p class="subtitle">横浜国立大学   教育学部   学校教員養成課程   社会科教育</p>
     
   </div>
   <div class='bottom'>
@@ -2416,46 +2452,32 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       <div class='list-h'>
         
           
-            <a href="/v4/getting-started/"
+            <a href="/themes/"
               
               
-              active-action="action-v4getting-started">
-              <img src='https://unpkg.com/volantis-static@0.0.1654736714924/media/twemoji/assets/svg/1f5c3.svg'><p>文档</p>
+              active-action="action-themes">
+              <img src='https://unpkg.com/volantis-static@0.0.1654736714924/media/twemoji/assets/svg/1f5c3.svg'><p>研究テーマ</p>
             </a>
           
-            <a href="/faqs/"
+            <a href="/about/"
               
               
-              active-action="action-faqs">
-              <img src='https://unpkg.com/volantis-static@0.0.1654736714924/media/twemoji/assets/svg/1f516.svg'><p>帮助</p>
+              active-action="action-about">
+              <img src='https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/google/298/information_2139-fe0f.png'><p>研究室概要</p>
             </a>
           
-            <a href="/examples/"
+            <a href="/docs/"
               
               
-              active-action="action-examples">
-              <img src='https://unpkg.com/volantis-static@0.0.1654736714924/media/twemoji/assets/svg/1f396.svg'><p>示例</p>
-            </a>
-          
-            <a href="/contributors/"
-              
-              
-              active-action="action-contributors">
-              <img src='https://unpkg.com/volantis-static@0.0.1654736714924/media/twemoji/assets/svg/1f389.svg'><p>社区</p>
+              active-action="action-docs">
+              <img src='https://unpkg.com/volantis-static@0.0.1654736714924/media/twemoji/assets/svg/1f389.svg'><p>最新情報</p>
             </a>
           
             <a href="/archives/"
               
               
               active-action="action-archives">
-              <img src='https://unpkg.com/volantis-static@0.0.1654736714924/media/twemoji/assets/svg/1f4f0.svg'><p>博客</p>
-            </a>
-          
-            <a target="_blank" rel="noopener" href="https://github.com/volantis-x/hexo-theme-volantis/"
-              
-              
-              active-action="action-https:githubcomvolantis-xhexo-theme-volantis">
-              <img src='https://unpkg.com/volantis-static@0.0.1654736714924/media/twemoji/assets/svg/1f9ec.svg'><p>源码</p>
+              <img src='https://unpkg.com/volantis-static@0.0.1654736714924/media/twemoji/assets/svg/1f4f0.svg'><p>研究成果</p>
             </a>
           
         
@@ -2479,6 +2501,8 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   <section class="post-list">
     
       
+        
+          
         
           
         
@@ -2542,6 +2566,73 @@ Qu...
           </div>
         
       
+        
+          <div class='post-wrapper'>
+            <div class="post post-v3 white-box reveal shadow floatable blur"  itemscope itemtype="http://schema.org/Article" >
+  <link itemprop="mainEntityOfPage" href="http://example.com/post/60656.html">
+  <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+    <meta itemprop="name" content="池口研究室">
+  </span>
+  <span hidden itemprop="post" itemscope itemtype="http://schema.org/Post">
+    <meta itemprop="name" content="池口研究室">
+    <meta itemprop="description" content="Human Geography">
+  </span>
+  
+  
+  
+    <span hidden>
+      <meta itemprop="image" content="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png">
+    </span>
+  
+  
+    
+    <h2 class="article-title"  itemprop="name headline">
+      <a href="/post/60656.html"  itemprop="url">
+        「先住民の地図と環境利用」．佐藤廉也・宮澤仁編『人文地理学からみる世界』放送大学教育振興会：105-122．
+      </a>
+    </h2>
+  
+  <div class='md article-desc' itemprop="articleBody">
+    
+      
+        
+著者名/発表者名佐藤 廉也, 宮澤 仁, 矢部 直人, 祖田 亮次, 池口 明子, 村山 良之（ 担当： 単著）
+
+総ページ数252
+
+出版者放送大学教育振興会
+
+ISBN9784595318627
+
+データソースKAKENHI-PROJECT-26284131
+
+
+
+      
+    
+  </div>
+  
+    <div class='meta-v3' line_style='solid'>
+      <div>
+        
+        <time itemprop="dateCreated datePublished" datetime="2022-03-11T00:00:00+09:00">2022-03-11</time>
+        
+      </div>
+      
+        <div>
+          <a class='readmore' href='/post/60656.html' itemprop="url">
+            Read More
+          </a>
+        </div>
+      
+    </div>
+  
+
+</div>
+
+          </div>
+        
+      
     
   </section>
   
@@ -2562,18 +2653,17 @@ Qu...
   <div class='content'>
     
       
-        <a class='avatar flat-box rectangle' href='/about/'>
-          <img no-lazy src='https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/Logo-NavBar@3x.png'/>
-        </a>
+        <div class='avatar'>
+          <img no-lazy src='https://www.ynu.ac.jp/special/interview/csv/img/img_akiko_ikeguchi.jpg'/>
+        </div>
       
     
     
       <div class='text'>
         
+          <h2>池口明子</h2>
         
         
-          <p><span id="jinrishici-sentence">池口研究室</span></p>
-          <script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
         
       </div>
     
@@ -2581,16 +2671,7 @@ Qu...
       <div class="social-wrapper">
         
           
-            <a href="/atom.xml"
-              class="social fa-solid fa-rss flat-btn"
-              target="_blank"
-              rel="external nofollow noopener noreferrer">
-              
-            </a>
-          
-        
-          
-            <a href="mailto:me@xxx.com"
+            <a href="/ikeguchi@ynu.ac.jp"
               class="social fa-solid fa-envelope flat-btn"
               target="_blank"
               rel="external nofollow noopener noreferrer">
@@ -2599,8 +2680,8 @@ Qu...
           
         
           
-            <a href="https://github.com/volantis-x/"
-              class="social fab fa-github flat-btn"
+            <a href="https://researchmap.jp/read0203438"
+              class="social fa-solid fa-link flat-btn"
               target="_blank"
               rel="external nofollow noopener noreferrer">
               
@@ -2608,8 +2689,8 @@ Qu...
           
         
           
-            <a href="/"
-              class="social fa-solid fa-headphones-alt flat-btn"
+            <a href="https://er-web.ynu.ac.jp/html/IKEGUCHI_Akiko/ja.html"
+              class="social fa-solid fa-list flat-btn"
               target="_blank"
               rel="external nofollow noopener noreferrer">
               
@@ -2711,47 +2792,8 @@ Qu...
     <br><br>
     
       
-        <div class="aplayer-container">
-          
-
-
-        </div>
-      
-    
-      
-        <br>
-        <div class="social-wrapper" itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          
-            
-          
-            
-          
-            
-          
-        </div>
-      
-    
-      
-        <div><p>Blog content follows the <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) License</a></p>
-</div>
-      
-    
-      
-        
-          <div><p><span id="lc-sv">本站总访问量为 <span id='number'><i class="fa-solid fa-loader fa-spin fa-fw" aria-hidden="true"></i></span> 次</span> <span id="lc-uv">访客数为 <span id='number'><i class="fa-solid fa-loader fa-spin fa-fw" aria-hidden="true"></i></span> 人</span></p>
-</div>
-        
-      
-    
-      
-        Use
-        <a href="https://github.com/volantis-x/hexo-theme-volantis/#5.7.7" target="_blank" class="codename">Volantis</a>
-        as theme
-      
-    
-      
         <div class='copyright'>
-        <p><a href="/">Copyright © since 2017 XXX</a></p>
+        <p><a href="/">Copyright © since 2022 Ikeguchi Seminar</a></p>
 
         </div>
       
@@ -3214,6 +3256,29 @@ Qu...
 <script src="https://unpkg.com/volantis-static@0.0.1654736714924/libs/pjax/pjax.min.js"></script>
 
 
+<!-- 样式位于：source/css/_plugins/pjaxanimate.styl -->
+
+<div class="pjax-animate">
+  
+    <script src="https://unpkg.com/volantis-static@0.0.1654736714924/libs/nprogress/nprogress.js"></script>
+    <div id="loading-bar-wrapper"><script>NProgress.configure({parent:"#loading-bar-wrapper",trickleSpeed: 100})</script></div>
+    <script>
+      window.ShowLoading = function() {
+        NProgress.start();
+      };
+      window.HideLoading = function() {
+        NProgress.done();
+      }
+    </script>
+  
+	<script>
+		volantis.pjax.push(window.HideLoading,'HideLoading');
+		volantis.pjax.send(window.ShowLoading,'ShowLoading');
+		volantis.pjax.error(window.HideLoading,'HideLoading');
+	</script>
+</div>
+
+
 <script>
     var pjax;
     document.addEventListener('DOMContentLoaded', function () {
@@ -3242,7 +3307,7 @@ Qu...
       try {
         var currentUrl = window.location.pathname;
         var targetUrl = e.triggerElement.href;
-        var banUrl = [""];
+        var banUrl = ["/photos/"];
         if (banUrl[0] != "") {
           banUrl.forEach(item => {
             if(currentUrl.indexOf(item) != -1 || targetUrl.indexOf(item) != -1) {
