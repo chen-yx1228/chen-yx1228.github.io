@@ -26,8 +26,8 @@
   
   <!-- Custom Files headBegin end-->
   <link rel="preload" href="/css/style.css" as="style">
-  <link rel="preload" href="https://unpkg.com/volantis-static@0.0.1654736714924/media/fonts/VarelaRound/VarelaRound-Regular.ttf" as="font" type="font/ttf" crossorigin="anonymous">
-<link rel="preload" href="https://unpkg.com/volantis-static@0.0.1654736714924/media/fonts/UbuntuMono/UbuntuMono-Regular.ttf" as="font" type="font/ttf" crossorigin="anonymous">
+  <link rel="preload" href="https://unpkg.com/volantis-static@0.0.1654736714924/media/fonts/PingFangSC/PingFangSC-Regular.ttf" as="font" type="font/ttf" crossorigin="anonymous">
+<link rel="preload" href="https://unpkg.com/volantis-static@0.0.1654736714924/media/fonts/PingFangSC/PingFangSC-Regular.ttf" as="font" type="font/ttf" crossorigin="anonymous">
 
   <!-- feed -->
   <!-- 页面元数据 -->
@@ -57,9 +57,9 @@
   --color-site-footer: #666;
   --color-card: #fff;
   --color-text: #444;
-  --color-block: #f6f6f6;
+  --color-block: #bbdefb;
   --color-inlinecode: #c74f00;
-  --color-codeblock: #fff7ea;
+  --color-codeblock: #64b5f6;
   --color-h1: #3a3a3a;
   --color-h2: #3a3a3a;
   --color-h3: #333;
@@ -796,15 +796,15 @@ button {
   }
 }
 @font-face {
-  font-family: 'UbuntuMono';
-  src: url("https://unpkg.com/volantis-static@0.0.1654736714924/media/fonts/UbuntuMono/UbuntuMono-Regular.ttf");
+  font-family: 'PingFang SC';
+  src: url("https://unpkg.com/volantis-static@0.0.1654736714924/media/fonts/PingFangSC/PingFangSC-Regular.ttf");
   font-weight: 'normal';
   font-style: 'normal';
   font-display: swap;
 }
 @font-face {
-  font-family: 'Varela Round';
-  src: url("https://unpkg.com/volantis-static@0.0.1654736714924/media/fonts/VarelaRound/VarelaRound-Regular.ttf");
+  font-family: 'PingFang SC';
+  src: url("https://unpkg.com/volantis-static@0.0.1654736714924/media/fonts/PingFangSC/PingFangSC-Regular.ttf");
   font-weight: 'normal';
   font-style: 'normal';
   font-display: swap;
@@ -1681,7 +1681,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     debug: "env",
     cdn: {"js":{"app":"/js/app.js","parallax":"/js/plugins/parallax.js","rightMenu":"/js/plugins/rightMenu.js","rightMenus":"/js/plugins/rightMenus.js","sites":"/js/plugins/tags/sites.js","friends":"/js/plugins/tags/friends.js","contributors":"/js/plugins/tags/contributors.js","search":"https://cdn.jsdelivr.net/xxxxxxxx/js/search/hexo.js"},"css":{"style":"/css/style.css"}},
     default: {"avatar":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/avatar/round/3442075.svg","link":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/link/8f277b4ee0ecd.svg","cover":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/cover/76b86c0226ffd.svg","image":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/image/2659360.svg"},
-    lastupdate: new Date(1671506945929),
+    lastupdate: new Date(1671527595026),
     sidebar: {
       for_page: ["blogger","category","tagcloud","donate"],
       for_post: ["toc"],
@@ -2187,11 +2187,11 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
             
               <li>
                 <a class="menuitem flat-box faa-parent animated-hover"
-                href="/archives/" title="図書"
+                href="/books/" title="図書"
                   
                   
                   
-                    active-action="action-archives"
+                    active-action="action-books"
                   >
                   図書
                 </a>
@@ -2257,13 +2257,13 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
             
               <li>
                 <a class="menuitem flat-box faa-parent animated-hover"
-                target="_blank" rel="noopener" href="https://www.edu.ynu.ac.jp/" title="横浜国立大学　教育学部"
+                target="_blank" rel="noopener" href="https://www.edu.ynu.ac.jp/" title="横浜国立大学教育学部"
                   
                   
                   
                     active-action="action-https:wwweduynuacjp"
                   >
-                  横浜国立大学　教育学部
+                  横浜国立大学教育学部
                 </a>
                 
               </li>
@@ -2274,13 +2274,13 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
             
               <li>
                 <a class="menuitem flat-box faa-parent animated-hover"
-                target="_blank" rel="noopener" href="https://pste.ynu.ac.jp/" title="横浜国立大学　教職大学院"
+                target="_blank" rel="noopener" href="https://pste.ynu.ac.jp/" title="横浜国立大学教職大学院"
                   
                   
                   
                     active-action="action-https:psteynuacjp"
                   >
-                  横浜国立大学　教職大学院
+                  横浜国立大学教職大学院
                 </a>
                 
               </li>
@@ -2414,11 +2414,11 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
             
               <li>
                 <a class="menuitem flat-box faa-parent animated-hover"
-                href="/archives/" title="図書"
+                href="/books/" title="図書"
                   
                   
                   
-                    active-action="action-archives"
+                    active-action="action-books"
                   >
                   図書
                 </a>
@@ -2484,13 +2484,13 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
             
               <li>
                 <a class="menuitem flat-box faa-parent animated-hover"
-                target="_blank" rel="noopener" href="https://www.edu.ynu.ac.jp/" title="横浜国立大学　教育学部"
+                target="_blank" rel="noopener" href="https://www.edu.ynu.ac.jp/" title="横浜国立大学教育学部"
                   
                   
                   
                     active-action="action-https:wwweduynuacjp"
                   >
-                  横浜国立大学　教育学部
+                  横浜国立大学教育学部
                 </a>
                 
               </li>
@@ -2501,13 +2501,13 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
             
               <li>
                 <a class="menuitem flat-box faa-parent animated-hover"
-                target="_blank" rel="noopener" href="https://pste.ynu.ac.jp/" title="横浜国立大学　教職大学院"
+                target="_blank" rel="noopener" href="https://pste.ynu.ac.jp/" title="横浜国立大学教職大学院"
                   
                   
                   
                     active-action="action-https:psteynuacjp"
                   >
-                  横浜国立大学　教職大学院
+                  横浜国立大学教職大学院
                 </a>
                 
               </li>
@@ -2662,341 +2662,10 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 						<h2>2022</h2>
 					
 						<div class='timenode'>
-								<a class="meta" href="/post/60656.html">
-									<time>03-11</time>
-									
-										「先住民の地図と環境利用」．佐藤廉也・宮澤仁編『人文地理学からみる世界』放送大学教育振興会：105-122．
-									
-									
-									
-									
-								</a>
-						</div>
-				
-			
-				
-				
-					
-						
-						<h2>2021</h2>
-					
-						<div class='timenode'>
-								<a class="meta" href="/post/16568.html">
-									<time>03-09</time>
-									
-										Adaptive Fisheries Governance in Changing Coastal Regions in Japan
-									
-									
-									
-									
-								</a>
-						</div>
-				
-			
-				
-				
-					
-						
-						<h2>2018</h2>
-					
-						<div class='timenode'>
-								<a class="meta" href="/post/24619.html">
-									<time>03-11</time>
-									
-										「河川生態系への環境適応」．佐藤廉也・宮澤仁編『現代人文地理学』放送大学教育振興会：124-139．
-									
-									
-									
-									
-								</a>
-						</div>
-				
-			
-				
-				
-					
-						<div class='timenode'>
-								<a class="meta" href="/post/24616.html">
-									<time>03-11</time>
-									
-										「海辺の環境と資源利用」．佐藤廉也・宮澤仁編『現代人文地理学』放送大学教育振興会：106-123．
-									
-									
-									
-									
-								</a>
-						</div>
-				
-			
-				
-				
-					
-						
-						<h2>2017</h2>
-					
-						<div class='timenode'>
-								<a class="meta" href="/post/37264.html">
-									<time>03-08</time>
-									
-										「先住民マッピング」若林芳樹・今井修・瀬戸寿一・西村雄一郎編『参加型GISの理論と応用』古今書院：82-90
-									
-									
-									
-									
-								</a>
-						</div>
-				
-			
-				
-				
-					
-						
-						<h2>2016</h2>
-					
-						<div class='timenode'>
-								<a class="meta" href="/post/25861.html">
-									<time>06-25</time>
-									
-										「人間の営みを学際的に探る：貝類採集からみる干潟の漁撈文化」秋道智彌・赤坂憲雄編『人間の営みを探る』玉川大学出版部
-									
-									
-									
-									
-								</a>
-						</div>
-				
-			
-				
-				
-					
-						
-						<h2>2014</h2>
-					
-						<div class='timenode'>
-								<a class="meta" href="/post/36706.html">
-									<time>11-14</time>
-									
-										「貝類利用からみた島嶼地域の潟文化試論：ベトナム・北部沿岸と沖縄島・羽地内海の比較から」山下博由・李善愛編『干潟の自然と文化』東海大学出版部
-									
-									
-									
-									
-								</a>
-						</div>
-				
-			
-				
-				
-					
-						<div class='timenode'>
-								<a class="meta" href="/post/36706.html">
-									<time>05-28</time>
-									
-										「人類の生存環境と文化生態」「世帯ライフサイクルと漁場利用」池口明子・佐藤廉也編『身体と生存の文化生態』海青社
-									
-									
-									
-									
-								</a>
-						</div>
-				
-			
-				
-				
-					
-						
-						<h2>2013</h2>
-					
-						<div class='timenode'>
-								<a class="meta" href="/post/36706.html">
-									<time>10-08</time>
-									
-										「湿地・干潟」，人文地理学会編『人文地理学辞典』丸善出版
-									
-									
-									
-									
-								</a>
-						</div>
-				
-			
-				
-				
-					
-						<div class='timenode'>
-								<a class="meta" href="/post/43792.html">
-									<time>09-30</time>
-									
-										「貝の利用からみた風土としての干潟」池谷和信編『生き物文化の地理学』海青社
-									
-									
-									
-									
-								</a>
-						</div>
-				
-			
-				
-				
-					
-						<div class='timenode'>
-								<a class="meta" href="/post/52555.html">
-									<time>03-05</time>
-									
-										「オーガニック・ナマズ？」「アマの行動からみる持続的な資源利用と環境認識」林紀代美編『漁業，魚，海をとおして見つめる地域』冬弓舎
-									
-									
-									
-									
-								</a>
-						</div>
-				
-			
-				
-				
-					
-						
-						<h2>2012</h2>
-					
-						<div class='timenode'>
-								<a class="meta" href="/post/57316.html">
+								<a class="meta" href="/post/51727.html">
 									<time>12-20</time>
 									
-										「パプアニューギニア・セピック川流域のカプリマンにおける漁撈活動」溝口常俊・阿部康久編『歴史と環境―歴史地理学の可能性を探る』花書院
-									
-									
-									
-									
-								</a>
-						</div>
-				
-			
-				
-				
-					
-						
-						<h2>2008</h2>
-					
-						<div class='timenode'>
-								<a class="meta" href="/post/50681.html">
-									<time>07-25</time>
-									
-										The grassroots movement to preserve tidal flats in urban coastal regions in Japan the case of the Fujimae tidal flats. Karan, P. P. and Suganuma, U. eds, Local Environmental Movements A Comparative Study of the United States and Japan
-									
-									
-									
-									
-								</a>
-						</div>
-				
-			
-				
-				
-					
-						<div class='timenode'>
-								<a class="meta" href="/post/19123.html">
-									<time>05-16</time>
-									
-										ホームガーデンから市場へ.河野泰之編『論集モンスーンアジアの生態史第1巻生業の生態史』
-									
-									
-									
-									
-								</a>
-						</div>
-				
-			
-				
-				
-					
-						<div class='timenode'>
-								<a class="meta" href="/post/45455.html">
-									<time>05-16</time>
-									
-										「メコン河集水域の漁携と季節移動」.河野泰之編『論集モンスーンアジアの生態史 第1巻生業の生態史』
-									
-									
-									
-									
-								</a>
-						</div>
-				
-			
-				
-				
-					
-						<div class='timenode'>
-								<a class="meta" href="/post/38227.html">
-									<time>03-16</time>
-									
-										「ビエンチャン近郊における流通と交換」クリスチャン・ダニエル編『モンスーンアジアの生態史　第2巻　地域の生態史』弘文堂
-									
-									
-									
-									
-								</a>
-						</div>
-				
-			
-				
-				
-					
-						<div class='timenode'>
-								<a class="meta" href="/post/5107.html">
-									<time>03-08</time>
-									
-										「魚類とサライの恵み一水域自然生物利用の多様性」.野中健一編 『ヴィェンチャン平野の暮らし-天水田村の多様な環境利用-』
-									
-									
-									
-									
-								</a>
-						</div>
-				
-			
-				
-				
-					
-						<div class='timenode'>
-								<a class="meta" href="/post/27003.html">
-									<time>03-01</time>
-									
-										「ヴィエンチャン平野の集落：移住による村づくり」．野中健一編 『ヴィエンチャン平野の暮らし-天水田村の多様な環境利用-』
-									
-									
-									
-									
-								</a>
-						</div>
-				
-			
-				
-				
-					
-						<div class='timenode'>
-								<a class="meta" href="/post/60673.html">
-									<time>03-01</time>
-									
-										「平野の暮らしと魚―ラオス・ビエンチャン平野の村から―」.秋道智彌・黒倉寿編『人と魚の自然誌－母なるメコン河に生きる－』
-									
-									
-									
-									
-								</a>
-						</div>
-				
-			
-				
-				
-					
-						
-						<h2>2007</h2>
-					
-						<div class='timenode'>
-								<a class="meta" href="/post/60657.html">
-									<time>03-11</time>
-									
-										「野生市場」秋道智彌編『図録メコンの世界-歴史と生態-』弘文堂
+										ベトナムにおける粗放的エビ生産事業の持続可能性：社会経済学的評価と課題
 									
 									
 									
@@ -3159,7 +2828,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     
       
         <div class='copyright'>
-        <p><a href="/">Copyright © since 2022 Ikeguchi Labo</a></p>
+        <p><a href="/">Copyright © since 2022 Ikeguchi Lab</a></p>
 
         </div>
       
@@ -3430,7 +3099,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
 
   <script>
-  let imgs = ["https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/025.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/056.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/034.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/005.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/033.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/002.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/004.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/012.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/039.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/016.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/038.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/001.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/054.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/035.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/006.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/003.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/019.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/042.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/046.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/052.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/051.webp"];
+  let imgs = ["https://github.com/chen-yx1228/chen-yx1228.github.io/blob/main/gallery/4f72b06beeb9094d6be31291dd0d7cffi4.gif?raw=true","https://github.com/chen-yx1228/chen-yx1228.github.io/blob/main/gallery/ddb5e168315c658aefd6ba4726f22714ex.gif?raw=true","https://github.com/chen-yx1228/chen-yx1228.github.io/blob/main/gallery/e70ef4c1396055cd44e0e857e69ff03fex.gif?raw=true","https://github.com/chen-yx1228/chen-yx1228.github.io/blob/main/gallery/e7d242e2ade5a867dba2574af784bd14i4.gif?raw=true","https://github.com/chen-yx1228/chen-yx1228.github.io/blob/main/gallery/4f72b06beeb9094d6be31291dd0d7cff30.gif?raw=true"];
   let index = 0;
   let IntervalParallax = null;
 

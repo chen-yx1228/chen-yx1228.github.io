@@ -26,8 +26,8 @@
   
   <!-- Custom Files headBegin end-->
   <link rel="preload" href="/css/style.css" as="style">
-  <link rel="preload" href="https://unpkg.com/volantis-static@0.0.1654736714924/media/fonts/VarelaRound/VarelaRound-Regular.ttf" as="font" type="font/ttf" crossorigin="anonymous">
-<link rel="preload" href="https://unpkg.com/volantis-static@0.0.1654736714924/media/fonts/UbuntuMono/UbuntuMono-Regular.ttf" as="font" type="font/ttf" crossorigin="anonymous">
+  <link rel="preload" href="https://unpkg.com/volantis-static@0.0.1654736714924/media/fonts/PingFangSC/PingFangSC-Regular.ttf" as="font" type="font/ttf" crossorigin="anonymous">
+<link rel="preload" href="https://unpkg.com/volantis-static@0.0.1654736714924/media/fonts/PingFangSC/PingFangSC-Regular.ttf" as="font" type="font/ttf" crossorigin="anonymous">
 
   <!-- feed -->
   <!-- 页面元数据 -->
@@ -57,9 +57,9 @@
   --color-site-footer: #666;
   --color-card: #fff;
   --color-text: #444;
-  --color-block: #f6f6f6;
+  --color-block: #bbdefb;
   --color-inlinecode: #c74f00;
-  --color-codeblock: #fff7ea;
+  --color-codeblock: #64b5f6;
   --color-h1: #3a3a3a;
   --color-h2: #3a3a3a;
   --color-h3: #333;
@@ -796,15 +796,15 @@ button {
   }
 }
 @font-face {
-  font-family: 'UbuntuMono';
-  src: url("https://unpkg.com/volantis-static@0.0.1654736714924/media/fonts/UbuntuMono/UbuntuMono-Regular.ttf");
+  font-family: 'PingFang SC';
+  src: url("https://unpkg.com/volantis-static@0.0.1654736714924/media/fonts/PingFangSC/PingFangSC-Regular.ttf");
   font-weight: 'normal';
   font-style: 'normal';
   font-display: swap;
 }
 @font-face {
-  font-family: 'Varela Round';
-  src: url("https://unpkg.com/volantis-static@0.0.1654736714924/media/fonts/VarelaRound/VarelaRound-Regular.ttf");
+  font-family: 'PingFang SC';
+  src: url("https://unpkg.com/volantis-static@0.0.1654736714924/media/fonts/PingFangSC/PingFangSC-Regular.ttf");
   font-weight: 'normal';
   font-style: 'normal';
   font-display: swap;
@@ -1681,7 +1681,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     debug: "env",
     cdn: {"js":{"app":"/js/app.js","parallax":"/js/plugins/parallax.js","rightMenu":"/js/plugins/rightMenu.js","rightMenus":"/js/plugins/rightMenus.js","sites":"/js/plugins/tags/sites.js","friends":"/js/plugins/tags/friends.js","contributors":"/js/plugins/tags/contributors.js","search":"https://cdn.jsdelivr.net/xxxxxxxx/js/search/hexo.js"},"css":{"style":"/css/style.css"}},
     default: {"avatar":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/avatar/round/3442075.svg","link":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/link/8f277b4ee0ecd.svg","cover":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/cover/76b86c0226ffd.svg","image":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/image/2659360.svg"},
-    lastupdate: new Date(1671506945929),
+    lastupdate: new Date(1671527595026),
     sidebar: {
       for_page: ["blogger","category","tagcloud","donate"],
       for_post: ["toc"],
@@ -2187,11 +2187,11 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
             
               <li>
                 <a class="menuitem flat-box faa-parent animated-hover"
-                href="/archives/" title="図書"
+                href="/books/" title="図書"
                   
                   
                   
-                    active-action="action-archives"
+                    active-action="action-books"
                   >
                   図書
                 </a>
@@ -2257,13 +2257,13 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
             
               <li>
                 <a class="menuitem flat-box faa-parent animated-hover"
-                target="_blank" rel="noopener" href="https://www.edu.ynu.ac.jp/" title="横浜国立大学　教育学部"
+                target="_blank" rel="noopener" href="https://www.edu.ynu.ac.jp/" title="横浜国立大学教育学部"
                   
                   
                   
                     active-action="action-https:wwweduynuacjp"
                   >
-                  横浜国立大学　教育学部
+                  横浜国立大学教育学部
                 </a>
                 
               </li>
@@ -2274,13 +2274,13 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
             
               <li>
                 <a class="menuitem flat-box faa-parent animated-hover"
-                target="_blank" rel="noopener" href="https://pste.ynu.ac.jp/" title="横浜国立大学　教職大学院"
+                target="_blank" rel="noopener" href="https://pste.ynu.ac.jp/" title="横浜国立大学教職大学院"
                   
                   
                   
                     active-action="action-https:psteynuacjp"
                   >
-                  横浜国立大学　教職大学院
+                  横浜国立大学教職大学院
                 </a>
                 
               </li>
@@ -2414,11 +2414,11 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
             
               <li>
                 <a class="menuitem flat-box faa-parent animated-hover"
-                href="/archives/" title="図書"
+                href="/books/" title="図書"
                   
                   
                   
-                    active-action="action-archives"
+                    active-action="action-books"
                   >
                   図書
                 </a>
@@ -2484,13 +2484,13 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
             
               <li>
                 <a class="menuitem flat-box faa-parent animated-hover"
-                target="_blank" rel="noopener" href="https://www.edu.ynu.ac.jp/" title="横浜国立大学　教育学部"
+                target="_blank" rel="noopener" href="https://www.edu.ynu.ac.jp/" title="横浜国立大学教育学部"
                   
                   
                   
                     active-action="action-https:wwweduynuacjp"
                   >
-                  横浜国立大学　教育学部
+                  横浜国立大学教育学部
                 </a>
                 
               </li>
@@ -2501,13 +2501,13 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
             
               <li>
                 <a class="menuitem flat-box faa-parent animated-hover"
-                target="_blank" rel="noopener" href="https://pste.ynu.ac.jp/" title="横浜国立大学　教職大学院"
+                target="_blank" rel="noopener" href="https://pste.ynu.ac.jp/" title="横浜国立大学教職大学院"
                   
                   
                   
                     active-action="action-https:psteynuacjp"
                   >
-                  横浜国立大学　教職大学院
+                  横浜国立大学教職大学院
                 </a>
                 
               </li>
@@ -2666,7 +2666,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
         
           <div class='post-wrapper'>
             <div class="post post-v3 white-box reveal blur"  itemscope itemtype="http://schema.org/Article" >
-  <link itemprop="mainEntityOfPage" href="http://example.com/post/60656.html">
+  <link itemprop="mainEntityOfPage" href="http://example.com/post/51727.html">
   <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
     <meta itemprop="name" content="横浜国立大学地理学教室 Department of Geography, Yokohama National University">
   </span>
@@ -2677,34 +2677,33 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   
   
   
-    <span hidden>
-      <meta itemprop="image" content="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png">
-    </span>
+    <div class='headimg-div'>
+      <a class='headimg-a' href="/post/51727.html">
+        <img itemprop="image" class='headimg' alt="ベトナムにおける粗放的エビ生産事業の持続可能性：社会経済学的評価と課題" src='https://github.com/chen-yx1228/chen-yx1228.github.io/blob/main/gallery/photos/19466c156e3972098b6dd28a54e49b37.jpg?raw=true'/>
+      </a>
+    </div>
   
   
     
     <h2 class="article-title"  itemprop="name headline">
-      <a href="/post/60656.html"  itemprop="url">
-        「先住民の地図と環境利用」．佐藤廉也・宮澤仁編『人文地理学からみる世界』放送大学教育振興会：105-122．
+      <a href="/post/51727.html"  itemprop="url">
+        ベトナムにおける粗放的エビ生産事業の持続可能性：社会経済学的評価と課題
       </a>
     </h2>
   
   <div class='md article-desc' itemprop="articleBody">
     
       
-        
-著者名/発表者名佐藤 廉也, 宮澤 仁, 矢部 直人, 祖田 亮次, 池口 明子, 村山 良之（ 担当： 単著）
-
-総ページ数252
-
-出版者放送大学教育振興会
-
-ISBN9784595318627
-
-データソースKAKENHI-PROJECT-26284131
+        研究課題名ベトナムにおける粗放的エビ生産事業の持続可能性：社会経済学的評価と課題1.研究計画
 
 
 
+(1) 研究目的
+
+
+
+
+国境を越えたグローバルな水産物流通では，第三者機関による環境認証制度や，環境持続的なエコ・ラベルの導入が活発化している。代表的なグローバル流通種である養殖エビでは，マングローブ湿地の環境保全の観点から，ASCやGGAＰなどが積極的に導入されてきた。しかし，認証コストの...
       
     
   </div>
@@ -2712,12 +2711,12 @@ ISBN9784595318627
     <div class='meta-v3' line_style='solid'>
       <div>
         
-        <time itemprop="dateCreated datePublished" datetime="2022-03-11T00:00:00+09:00">2022-03-11</time>
+        <time itemprop="dateCreated datePublished" datetime="2022-12-20T00:00:00+09:00">2022-12-20</time>
         
       </div>
       
         <div>
-          <a class='readmore' href='/post/60656.html' itemprop="url">
+          <a class='readmore' href='/post/51727.html' itemprop="url">
             Read More
           </a>
         </div>
@@ -2890,7 +2889,7 @@ ISBN9784595318627
     
       
         <div class='copyright'>
-        <p><a href="/">Copyright © since 2022 Ikeguchi Labo</a></p>
+        <p><a href="/">Copyright © since 2022 Ikeguchi Lab</a></p>
 
         </div>
       
@@ -3161,7 +3160,7 @@ ISBN9784595318627
 
 
   <script>
-  let imgs = ["https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/025.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/056.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/034.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/005.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/033.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/002.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/004.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/012.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/039.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/016.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/038.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/001.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/054.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/035.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/006.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/003.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/019.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/042.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/046.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/052.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/051.webp"];
+  let imgs = ["https://github.com/chen-yx1228/chen-yx1228.github.io/blob/main/gallery/4f72b06beeb9094d6be31291dd0d7cffi4.gif?raw=true","https://github.com/chen-yx1228/chen-yx1228.github.io/blob/main/gallery/ddb5e168315c658aefd6ba4726f22714ex.gif?raw=true","https://github.com/chen-yx1228/chen-yx1228.github.io/blob/main/gallery/e70ef4c1396055cd44e0e857e69ff03fex.gif?raw=true","https://github.com/chen-yx1228/chen-yx1228.github.io/blob/main/gallery/e7d242e2ade5a867dba2574af784bd14i4.gif?raw=true","https://github.com/chen-yx1228/chen-yx1228.github.io/blob/main/gallery/4f72b06beeb9094d6be31291dd0d7cff30.gif?raw=true"];
   let index = 0;
   let IntervalParallax = null;
 

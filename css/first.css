@@ -8,9 +8,9 @@
   --color-site-footer: #666;
   --color-card: #fff;
   --color-text: #444;
-  --color-block: #f6f6f6;
+  --color-block: #bbdefb;
   --color-inlinecode: #c74f00;
-  --color-codeblock: #fff7ea;
+  --color-codeblock: #64b5f6;
   --color-h1: #3a3a3a;
   --color-h2: #3a3a3a;
   --color-h3: #333;
@@ -747,15 +747,15 @@ button {
   }
 }
 @font-face {
-  font-family: 'UbuntuMono';
-  src: url("https://unpkg.com/volantis-static@0.0.1654736714924/media/fonts/UbuntuMono/UbuntuMono-Regular.ttf");
+  font-family: 'PingFang SC';
+  src: url("https://unpkg.com/volantis-static@0.0.1654736714924/media/fonts/PingFangSC/PingFangSC-Regular.ttf");
   font-weight: 'normal';
   font-style: 'normal';
   font-display: swap;
 }
 @font-face {
-  font-family: 'Varela Round';
-  src: url("https://unpkg.com/volantis-static@0.0.1654736714924/media/fonts/VarelaRound/VarelaRound-Regular.ttf");
+  font-family: 'PingFang SC';
+  src: url("https://unpkg.com/volantis-static@0.0.1654736714924/media/fonts/PingFangSC/PingFangSC-Regular.ttf");
   font-weight: 'normal';
   font-style: 'normal';
   font-display: swap;
